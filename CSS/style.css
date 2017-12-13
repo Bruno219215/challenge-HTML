@@ -1,0 +1,273 @@
+header{
+    margin: auto;
+    background-image:url("../IMG/photobanner.jpeg");
+    background-attachment: fixed;
+    width:861px;
+    height:500px;
+    background-size: 100% 100%;
+}
+
+header img{
+    width:350px;
+    height:300px;
+}
+
+nav{
+  background-color: pink;
+    height: 50px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  float: right;
+  margin-right: 0px;
+  height: 50px;
+  line-height: 50px;
+  width: 100px;
+  font-size: 15px;
+  font-family: Impact, "Arial";
+  border-right: 0.1px dotted white; text-align: center;
+}
+
+nav ul li:first-child{
+  border : none;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #cc04c2;
+	background-color: white;
+}
+
+div.texte_home{
+    width:50%;
+    margin-left: 60px;
+    position: relative;
+    top: -30px;
+    font-family: "Cedarville Cursive";
+    font-size: 25px;
+    color: grey;
+}
+
+.bouton a{
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 15px;
+  float: left;
+  margin-left: 120px;
+  background-color: pink;
+  color: black;
+  width:150px;
+  height:50px;
+  position: relative;
+  top: -30px;
+  border-radius: 5px;
+  border:1px outset white;
+}
+
+.bouton a:hover{
+    cursor:pointer;
+    background:#efefef;
+}
+
+.bouton a:active{
+  border-style: inset;
+}
+
+section.fleur1{
+  background-color: pink;
+  height:350px;
+  width:861px;
+  margin: auto;
+  background-image: linear-gradient(pink, white);
+}
+
+div.fleur2{
+  float: left;
+  background-color: #efefef;
+  background-image:
+  width:190px;
+  margin-left: 20px;
+  position: relative;
+}
+
+h2{
+  margin-top:10px;
+  text-align: right;
+  margin : 50px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: "Cedarville Cursive";
+  color: white;
+}
+
+h3{
+  text-align: left;
+  font-size: 45px;
+  padding:20px;
+  margin : 0px;
+  font-family: "Cedarville Cursive";
+  color: gray;
+  opacity: 1;
+  //filter: alpha(opacity=0);
+}
+
+.fleur2 img{
+  height:150px;
+  width:150px;
+  margin: 20px;
+
+}
+.fleur2 img:hover{
+filter: contrast(90%);
+-webkit-transition: .3s ease-in-out;
+transition: .1s ease-in-out;
+}
+
+
+.prix{
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 5px;
+  font-family: Impact, "Arial";
+  padding:5px;
+}
+
+.prix span{
+  border: 0.5px solid #cec5be;
+  padding:5px;
+
+}
+
+.magasin{
+  margin: auto;
+  width:861px;
+  height:500px;
+  background-color: white;
+  position: relative;
+
+}
+.magasin .background{
+  margin: auto;
+  width:861px;
+  height:500px;
+  background-image:url("../IMG/flower14.jpg");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  opacity: 0.4;
+}
+
+.right_align{
+  margin-left: 400px;
+  font-family: Impact, "Arial";
+  color: black;
+  margin-right: 50px;
+  text-align: justify;
+  line-height: 22px
+}
+
+.reseau{
+  width:861px;
+  height: 50px;
+  margin: auto;
+  background-color: pink;
+}
+
+.reseau img{
+      width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: -100px;
+    padding-right: 40px;
+    float: right;
+}
+
+.contact{
+  margin: auto;
+  width:861px;
+  background-color: #cec5be;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact form{
+  margin: auto;
+  width:600px;
+  height:300px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.contact input{
+  width: 400px;
+  margin: auto;
+}
+
+.contact textarea{
+  width: 600px;
+  height: 180px
+}bmgb
+
+.contact input[type="submit"]{
+  color: black;
+  width: 100px;
+}
+.sociaux{
+  background-color: white;
+  width:861px;
+  margin : auto;
+}
+
+.sociaux img{
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+  padding-left: 20px;
+  padding-right: : 10px;
+  float: right;
+}
+
+.contact .envoyer{
+  width: 80px;
+  background-color: pink;
+  margin-left: 500px;
+  margin-top: 10px;
+  font-family: arial;
+  color: black;
+}
+
+h4{
+  font-family: arial;
+  font-size: 10px;
+  color: grey;
+  margin-left: 10px;
+}
+
+h4{
+  font-family: arial;
+  font-size: 10px;
+  color: grey;
+  margin-left: 10px;
+}
+
+h4 .mentions{
+  font-family: arial;
+  font-size: 10px;
+  color: grey;
+  margin-left: 10px;
+  background-color: white;
+}
